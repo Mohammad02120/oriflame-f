@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "live-server": "^1.2.2",
+    "node-sass": "^8.0.0"
+  },
+  "name": "oriflame",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass":"node-sass -w scss/main.scss -o css -r",
+    "xxl":"node-sass -w scss/xxl.scss -o css -r",
+    "xl":"node-sass -w scss/xl.scss -o css -r",
+    "lg":"node-sass -w scss/lg.scss -o css -r"
+
+
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
